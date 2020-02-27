@@ -116,6 +116,10 @@ p{
     height: 3px !important;
     width: 100% !important;
   }
+  
+  input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2{
+    margin-top: -9px !important;
+  }
 }
 
 @media (min-width: 700px) and (max-width: 768px){
