@@ -107,7 +107,7 @@ p{
     padding: 10px !important;
   }
 
-    .sidebarIconToggle{
+  .sidebarIconToggle{
     top:20px !important;
     left: 20px !important;
   }
@@ -116,7 +116,7 @@ p{
     height: 3px !important;
     width: 100% !important;
   }
-  
+
   input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2{
     margin-top: -9px !important;
   }
