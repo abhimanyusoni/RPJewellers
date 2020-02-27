@@ -26,7 +26,7 @@ h1{
 
 }
 
-p{
+.text2{
   position: absolute;
   color: white;
   font-size: 100px;
@@ -37,7 +37,7 @@ p{
 }
 
 @media (min-width: 1601px) and (max-width: 1920px){
-  p{
+  .text2{
     right: 37%;
     top: 45%;
   }
@@ -49,7 +49,7 @@ p{
 }
 
 @media (min-width: 1921px){
-  p{
+  .text2{
     right: 45%;
     top: 55%;
   }
@@ -62,7 +62,7 @@ p{
 }
 
 @media (min-width: 769px) and (max-width: 1024px){
-  p{
+  .text2{
     right: 39%;
     top: 52%;
     font-size: 60px;
@@ -92,7 +92,7 @@ p{
     font-size: 60px;
   }
 
-  p{
+  .text2{
     font-size: 20px;
     top: 52%;
     right: 43%;
@@ -120,6 +120,18 @@ p{
   input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2{
     margin-top: -9px !important;
   }
+
+  .scheme1{
+    font-size: 1.25rem !important;
+  }
+
+  .scheme2{
+    font-size: 75% !important;
+  }
+
+  .tagline{
+    font-size: 1rem !important;
+  }
 }
 
 @media (min-width: 700px) and (max-width: 768px){
@@ -130,7 +142,7 @@ p{
     font-size: 150px;
   }
 
-  p {
+  .text2 {
     font-size: 40px;
     top: 48%;
     right: 22%;
@@ -139,7 +151,7 @@ p{
 
 @media (min-width: 200px) and (max-width: 320px){
 
-  p {
+  .text2 {
     font-size: 15px;
     top: 50%;
     right: 25%;
@@ -163,6 +175,23 @@ p{
   .spinner{
     height: 3px !important;
     width: 100% !important;
+  }
+
+  .scheme1{
+    font-size: 1.25rem !important;
+  }
+
+  .scheme2{
+    font-size: 75% !important;
+  }
+
+  .tagline{
+    font-size: 1rem !important;
+  }
+
+  .text-center{
+    animation-name: none !important;
+    visibility: visible !important;
   }
 
 }
@@ -308,4 +337,66 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 .sidebarMenuInner li a:hover{
   color: #363636;
+}
+
+.jewellertItems{
+
+}
+
+.card-title{
+  font-family: cinzel;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #474747;
+  padding-bottom: 2rem !important;
+}
+
+.card-title:hover{
+  color: #cc0000;
+}
+
+#items img{
+  transition: transform .6s .9s;
+}
+
+#scheme{
+  background-color: #e32d2d;
+  font-family: cinzel;
+}
+
+.scheme1{
+  padding-top: 40px;
+
+}
+
+.scheme2{
+  padding-top: 20px;
+}
+
+
+.badge{
+  vertical-align: top;
+}
+
+#trending{
+  font-family: cinzel;
+  text-align: center;
+}
+
+.tag{
+  color: #474747;
+}
+
+.itemTag{
+  color: #474747;
+  font-weight: bold;
+  margin-top: 25px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 50px;
+}
+
+.itemTag:hover{
+ color: #cc0000;
+
 }
