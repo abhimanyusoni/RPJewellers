@@ -132,6 +132,12 @@ h1{
   .tagline{
     font-size: 1rem !important;
   }
+
+  .itemTag{
+    padding-bottom: 0 !important;
+  }
+
+
 }
 
 @media (min-width: 700px) and (max-width: 768px){
@@ -192,6 +198,10 @@ h1{
   .text-center{
     animation-name: none !important;
     visibility: visible !important;
+  }
+
+  .itemTag{
+    padding-bottom: 0 !important;
   }
 
 }
