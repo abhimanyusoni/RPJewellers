@@ -146,6 +146,10 @@ h1{
     animation: none !important;
   }
 
+  .text-white{
+    color: white !important;
+  }
+
   html,body{
   overflow-x: hidden;
   width: 100%;
@@ -477,6 +481,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   text-align: center;
   padding: 12px;
 }
+  
 
 
 
