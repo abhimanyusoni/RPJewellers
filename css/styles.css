@@ -74,7 +74,7 @@ h1{
     font-size: 150px;
   }
 
-  
+
   html,body{
   overflow-x: hidden;
   width: 100%;
@@ -132,9 +132,7 @@ h1{
     font-size: 1.25rem !important;
   }
 
-  .scheme2{
-    font-size: 75% !important;
-  }
+  
 
   .tagline{
     font-size: 1rem !important;
@@ -152,6 +150,10 @@ h1{
   overflow-x: hidden;
   width: 100%;
 }
+
+  .division{
+    margin-bottom: 0 !important;
+  }
 
 }
 
@@ -174,6 +176,10 @@ h1{
   overflow-x: hidden;
   width: 100%;
 }
+
+  h5{
+    font-size: 1.2rem !important;
+  }
 }
 
 @media (min-width: 200px) and (max-width: 320px){
@@ -436,5 +442,46 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 .itemTag:hover{
  color: #cc0000;
 
+}
+
+.adset{
+  margin-top: 1rem !important;
+}
+
+#loan{
+  background-color: #e32d2d;
+  font-family: cinzel;
+}
+
+#footer{
+  background-color: #3d3d3d;
+  font-family: cinzel;
+}
+
+#footer img:hover{
+  opacity: 0.9;
+}
+
+.about{
+  border-bottom: solid 2px #e32d2d;
+  padding-bottom: 3px;
+}
+
+
+.final-footer{
+  font-family: cinzel;
+  background-color: black;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+}
+
+
+
+.footerImg{
+  margin-right: 20px;
+  padding-top: 2rem !important;
 }
 
