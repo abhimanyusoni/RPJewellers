@@ -73,6 +73,12 @@ h1{
     top: 33%;
     font-size: 150px;
   }
+
+  
+  html,body{
+  overflow-x: hidden;
+  width: 100%;
+}
 }
 
 @media (max-width: 699px){
@@ -162,6 +168,12 @@ h1{
     top: 48%;
     right: 22%;
   }
+
+
+  html,body{
+  overflow-x: hidden;
+  width: 100%;
+}
 }
 
 @media (min-width: 200px) and (max-width: 320px){
@@ -212,6 +224,12 @@ h1{
   .itemTag{
     padding-bottom: 0 !important;
   }
+
+
+  html,body{
+  overflow-x: hidden;
+  width: 100%;
+}
 
 }
 
