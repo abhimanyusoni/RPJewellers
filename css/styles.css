@@ -37,6 +37,17 @@ h1{
 
 }
 
+@media (min-width: 1025px) and (max-width: 1285px){
+  h1{
+    top: 24% !important;
+
+  }
+
+  .text2{
+    right: 29% !important;
+  }
+}
+
 @media (min-width: 1601px) and (max-width: 1920px){
   .text2{
     right: 37%;
